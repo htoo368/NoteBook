@@ -1,3 +1,12 @@
+####################################################################################################
 http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.0/sbt-launch.jar
 SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
+$ git clone https://github.com/zhongl/HouseMD.git housemd
+$ cd housemd
+$ sbt proguard
+在target/scala-x.x.x/会生成一个名为 housemd_x.x.x-x.x.x.min.jar 可执行包.
+运行
+$ java -Xbootclasspath/a:$JAVA_HOME/lib/tools.jar -jar housemd_x.x.x-x.x.x.min.jar [OPTIONS] <pid>
+####################################################################################################
+
 http://www.douban.com/note/273500250/
