@@ -1,0 +1,10 @@
+* Install 2013/12/29
+IDE
+git clone https://github.com/vim-ruby/vim-ruby
+cd vim-ruby
+./bin/vim-ruby-install.rb
+
+DOC
+http://docs.ruby-lang.org/en/trunk/
+http://doc.loveruby.net/archive/
+ftp://ftp.ruby-lang.org/pub/ruby/doc/
